@@ -8,7 +8,7 @@
 
 - HTML
 - Javascript
-- CSS
+- CSS3
 
 ## Live Demo
 
