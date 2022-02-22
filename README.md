@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://samiullahbahadur.github.io/awesome_books/)
+[Live Demo Link](https://samiullahbahadur.github.io/Awesome-books-ES6/)
 
 ## Getting Started
 
