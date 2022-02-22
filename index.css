@@ -24,6 +24,12 @@ header {
   column-gap: 20px;
   list-style: none;
 }
+.time {
+  position: absolute;
+  z-index: 88;
+  right: 5%;
+  font-size: smaller;
+}
 
 ul li a {
   text-decoration: none;
@@ -37,7 +43,7 @@ ul li a {
 }
 
 .active {
-  color: pink;
+  color: blue;
   transform: scale(1.3);
   display: block;
 }
