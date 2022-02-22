@@ -42,10 +42,6 @@ $ https://github.com/samiullahbahadur/awesome_books.git
 
 - GitHub: [@githubhandle](https://github.com/samiullahbahadur)
 
-👤 **Matchoudi**
-
-- GitHub: [@githubhandle](https://github.com/LionRouge1)
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
