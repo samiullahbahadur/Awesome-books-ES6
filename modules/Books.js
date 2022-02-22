@@ -1,20 +1,19 @@
 export default class Books {
-  constructor(title = "", author = "") {
+  constructor(title = '', author = '') {
     this.title = title;
     this.author = author;
-    this.books =
-      localStorage.getItem("books") !== null
-        ? JSON.parse(localStorage.getItem("books"))
-        : "";
+    this.books = localStorage.getItem('books') !== null
+      ? JSON.parse(localStorage.getItem('books'))
+      : '';
   }
 
   saveBook(BTSave = this.books) {
     const storeBook = JSON.stringify(BTSave);
-    localStorage.setItem("books", storeBook);
+    localStorage.setItem('books', storeBook);
   }
 
   addBook() {
-    if (this.books === "" || this.books.length <= 0) {
+    if (this.books === '' || this.books.length <= 0) {
       this.books = [
         {
           Id: 1,
@@ -41,8 +40,8 @@ export default class Books {
   }
 
   static displayBook(book) {
-    const list = document.querySelector(".books_table");
-    const row = document.createElement("tr");
+    const list = document.querySelector('.books_table');
+    const row = document.createElement('tr');
     row.innerHTML = ` <td>${book.Btitle}</td> 
       <td>${book.Bauthor}</td> <td>
       <button type="submit" id="${book.Id}" class="btn">Remove</button></td> `;

@@ -24,6 +24,7 @@ header {
   column-gap: 20px;
   list-style: none;
 }
+
 .time {
   position: absolute;
   z-index: 88;
