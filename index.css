@@ -28,10 +28,10 @@ header {
 .time {
   position: absolute;
   z-index: 88;
-  right: 5%;
+  right: 25%;
+  top: 5%;
   font-size: smaller;
 }
-
 ul li a {
   text-decoration: none;
   font-size: 16px;
